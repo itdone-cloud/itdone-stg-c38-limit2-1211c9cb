@@ -1,0 +1,5 @@
+version: "1"
+services:
+  web:
+    image: nginxinc/nginx-unprivileged:alpine
+    port: 8080
